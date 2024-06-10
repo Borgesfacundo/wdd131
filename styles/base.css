@@ -25,18 +25,25 @@ header h1 {
 nav {
     background-color: black;
 }
+nav a {
+    display: block;
+}
 
 nav li {
+    flex: 1 1 100%;
     list-style-type: none;
 }
 
 nav ul,
 nav a {
-    display: block;
     color: #fff;
     text-align: center;
     text-decoration: none;
     margin: 0;
+}
+
+nav ul {
+    display: flex;
 }
 
 nav a {
@@ -50,3 +57,19 @@ nav a {
 nav a:hover {
     border: 1px solid #fff;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+section {
+    padding: 25px;
+    border: 1px solid black;
+    grid-row: 1/2;
+}
+
+footer {
+    display: grid;
+}
+
