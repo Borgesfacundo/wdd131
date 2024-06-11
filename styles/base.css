@@ -140,9 +140,11 @@ footer {
     background-color: #000;
     text-align: center;
     padding: 2rem;
+    width: 100%;
 }
 
 footer p {
     color: #fff;
     text-align: center;
+
 }
