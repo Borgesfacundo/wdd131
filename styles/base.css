@@ -110,6 +110,8 @@ main {
     grid-row: 3/4;
     grid-column: 1/3;
     display: grid;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .argentina h2 {
@@ -121,17 +123,13 @@ main {
 
 .argentina img {
     box-sizing: border-box;
-    margin-left: 2rem;
-    margin-right: 2rem;
     align-self: center;
     width: 300px;
     border: 1px solid;
 }
 
 .argentina p {
-    padding: 2rem;
     grid-column: 2/3;
-
 }
 
 .card ul {
