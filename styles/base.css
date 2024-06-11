@@ -132,6 +132,10 @@ main {
     padding: 0 3rem;
 }
 
+.card a {
+    color: black;
+}
+
 footer {
     background-color: rgba(3, 11, 133, 0.736);
     text-align: center;
