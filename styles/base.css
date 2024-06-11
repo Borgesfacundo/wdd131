@@ -112,6 +112,7 @@ main {
     display: grid;
     margin-left: 2rem;
     margin-right: 2rem;
+    justify-content: center;
 }
 
 .argentina h2 {

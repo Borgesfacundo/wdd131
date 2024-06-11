@@ -4,8 +4,11 @@ const today = new Date();
 
 currentYear.innerHTML = `${today.getFullYear()}`;
 
-lastMod = document.querySelector("#lastmodified");
 
-let oLastModif = new Date(document.lastModified);
+// Adding last modification date
+lastModifElement = document.lastModified;
+const lastMod = document.querySelector("#lastmodified");
 
-lastMod.innerHTML = `Last Modification: ${oLastModif}`;
+const text = `Last modified: ${lastModifElement}`;
+
+lastMod.textContent += text;
