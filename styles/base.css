@@ -58,7 +58,7 @@ main {
     gap: 1.5rem;
     margin: 1rem 2rem;
     justify-content: center;
-    min-width: auto;
+    min-width: 350px;
 }
 
 .card {
@@ -94,12 +94,7 @@ main {
 }
 
 .card div .about-me {
-    grid-template-columns: 1/2;
     justify-content: center;
-}
-
-.card div .profile-img {
-    grid-template-columns: 2/3;
 }
 
 .profile-img {
