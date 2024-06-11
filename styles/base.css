@@ -58,6 +58,7 @@ main {
     gap: 1.5rem;
     margin: 1rem 2rem;
     justify-content: center;
+    min-width: auto;
 }
 
 .card {
@@ -123,9 +124,8 @@ main {
 }
 
 .argentina img {
-    box-sizing: border-box;
     align-self: center;
-    width: 300px;
+    width: fit-content;
     border: 1px solid;
 }
 
