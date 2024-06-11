@@ -71,6 +71,7 @@ main {
 
 .card h2 {
     background-color: rgba(3, 11, 133, 0.736);
+    color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 3.5rem;
@@ -115,11 +116,16 @@ main {
     background-color: rgba(0, 0, 255, 0);
     border-bottom: 1px solid black;
     margin: 2rem 6rem;
+    color: #000;
 }
 
 .argentina img {
-    padding: 2rem;
-    width: 250px;
+    box-sizing: border-box;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-self: center;
+    width: 300px;
+    border: 1px solid;
 }
 
 .argentina p {
