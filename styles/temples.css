@@ -17,7 +17,7 @@ header h1 {
 }
 
 header {
-    padding: 0 20px;
+    padding: .5rem 20px;
 }
 
 nav {
@@ -64,6 +64,9 @@ nav li {
     padding: .5rem .75rem;
     background-color: rgb(95, 17, 168);
     color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 #menuLink:before {
