@@ -1,0 +1,9 @@
+@media (min-width: 650px) {
+    .icon-small {
+        display: none;
+    }
+
+    .icon-large {
+        display: inline;
+    }
+}
