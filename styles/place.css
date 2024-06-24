@@ -1,14 +1,14 @@
+:root {
+    --green: #009739;
+    --yellow: #FEDD00;
+}
+
 body,
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-.icon-large {
-    display: none;
-}
-
 .icon-small {
     display: inline-block;
 }
@@ -19,13 +19,13 @@ body,
 }
 
 header {
-    background-color: #FEDD00;
+    background-color: var(--yellow);
     color: white;
     padding-bottom: 1rem;
 }
 
 header h1 {
-    background-color: #009739;
+    background-color: var(--green);
     padding: 2rem;
     text-align: center;
 }
@@ -36,7 +36,7 @@ main {
 }
 
 picture img {
-    border-bottom: .4rem solid #009739;
+    border-bottom: .4rem solid var(--green);
     width: 100%;
     height: auto;
 }
@@ -44,21 +44,22 @@ picture img {
 .data,
 .weather {
     justify-self: center;
+    padding: 1rem;
 }
 
 section h2:nth-child(1) {
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
 section p {
     text-align: center;
-    padding: .3rem;
+    padding: .4rem;
 }
 
 footer {
-    background-color: #009739;
+    background-color: var(--green);
     padding: 2rem 1rem;
     text-align: center;
     font-size: 1.2rem;
