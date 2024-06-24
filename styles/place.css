@@ -1,5 +1,5 @@
 :root {
-    --green: #009739;
+    --green: #41d87b;
     --yellow: #FEDD00;
 }
 
@@ -22,7 +22,7 @@ body,
 
 header {
     background-color: var(--yellow);
-    color: white;
+    color: #000;
     padding-bottom: 1rem;
 }
 
