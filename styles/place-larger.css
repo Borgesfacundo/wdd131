@@ -33,9 +33,11 @@
 
     .weather {
         grid-column: 2/3;
-        grid-row: 2/3;
+        grid-row: 1/3;
         justify-self: right;
         margin-right: 1.5rem;
+        position: absolute;
+        bottom: 0;
     }
 
     .data, .weather {
@@ -43,11 +45,12 @@
         height: fit-content;
     }
 
-    .weather h2, .data h2 {
+    section h2:nth-child(1) {
         background-color: var(--yellow);
         width: 20rem;
         margin-left: -1.4rem;
         color: #000;
+        text-align: left;
     }
 
     section p:nth-child(1) {
