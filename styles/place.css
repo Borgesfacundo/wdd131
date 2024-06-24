@@ -30,6 +30,7 @@ header h1 {
     background-color: var(--green);
     padding: 2rem;
     text-align: center;
+    font-size: 3.5rem;
 }
 
 main {
