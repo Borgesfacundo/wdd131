@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table th, table td{
+    padding: .6rem .5rem;
+}
+
+tbody tr:nth-child(2) {
+    background-color: rgba(194, 190, 190, 0.411);
+}
+
+thead tr:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+}
+
+thead tr th:nth-child(1) {
+    background-color: #000;
+}
+
+thead tr:nth-child(2) {
+    background-color: rgb(92, 91, 91);
+    color: #fff;
+}
