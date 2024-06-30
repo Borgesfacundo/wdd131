@@ -30,7 +30,7 @@ const aCourse = {
             }
             renderSections(this.sections);
         }
-    },
+    }
 };
 
 function setCourseInfo(course) {
@@ -58,7 +58,7 @@ document.querySelector("#enrollStudent").addEventListener("click", function () {
 });
 document.querySelector("#dropStudent").addEventListener("click", function () {
     const sectionNum = document.querySelector("#sectionNumber").value;
-    aCourse.changeEnrollment(sectionNum);
+    aCourse.changeEnrollment(sectionNum, false);
 });
 
 setCourseInfo(aCourse);
