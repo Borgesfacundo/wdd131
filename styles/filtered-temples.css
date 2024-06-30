@@ -91,6 +91,10 @@ main h2 {
     grid-column: 1/2;
 }
 
+.res-grid section {
+    background-color: rgb(202, 202, 202);
+}
+
 main figure img {
     opacity: .6;
     transition: 1s ease;
