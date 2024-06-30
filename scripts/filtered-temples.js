@@ -124,6 +124,7 @@ const displayTemples = (temples) => {
         const picture = document.createElement("img");
         picture.setAttribute("src", temple.imageUrl);
         picture.setAttribute("alt", temple.templeName);
+        picture.setAttribute("loading", "lazy");
 
         article.appendChild(templeName);
         article.appendChild(location);
