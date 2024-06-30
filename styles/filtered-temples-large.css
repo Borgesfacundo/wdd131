@@ -1,0 +1,42 @@
+@media (min-width: 640px) {
+    header {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        grid-column: 2/6;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+
+    nav a:hover {
+        border: 1px solid;
+    }
+
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    main h2 {
+        grid-column: 1 / -1;
+    }
+
+    #menuLink {
+        display: none;
+    }
+
+}
