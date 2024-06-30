@@ -126,6 +126,8 @@ const displayTemples = (filteredTemples) => {
         picture.setAttribute("src", temple.imageUrl);
         picture.setAttribute("alt", temple.templeName);
         picture.setAttribute("loading", "lazy");
+        picture.setAttribute("width", "400");
+        picture.setAttribute("height", "250");
 
         section.appendChild(templeName);
         section.appendChild(location);

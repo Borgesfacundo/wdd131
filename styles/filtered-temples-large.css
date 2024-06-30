@@ -23,10 +23,6 @@
         padding: 1rem;
     }
 
-    nav a:hover {
-        border: 1px solid;
-    }
-
     main {
         display: grid;
     }
