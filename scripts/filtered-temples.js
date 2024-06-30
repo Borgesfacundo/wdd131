@@ -105,3 +105,35 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/2018/400x250/Provo-City-Center-Temple08.jpg"
     }
 ];
+
+const main = document.querySelector("main");
+
+const displayTemples = (temples) => {
+    temples.forEach(temple => {
+        const figure = document.createElement("figure");
+        const article = document.createElement("article");
+        const templeName = document.createElement("h3");
+        templeName.innerHTML = `${temple.templeName}`;
+        const location = document.createElement("p");
+        location.innerHTML = `Location: ${temple.location}`;
+        const dedication = document.createElement("p");
+        dedication.innerHTML = `Dedicated ${temple.dedicated}`;
+        const area = document.createElement("p");
+        area.innerHTML = `Size: ${temple.area} sq ft`;
+
+        const picture = document.createElement("img");
+        picture.setAttribute("src", temple.imageUrl);
+        picture.setAttribute("alt", temple.templeName);
+
+        article.appendChild(templeName);
+        article.appendChild(location);
+        article.appendChild(dedication);
+        article.appendChild(area);
+        figure.appendChild(picture);
+        article.appendChild(figure);
+
+        main.appendChild(article);
+    });
+}
+
+displayTemples(temples);
