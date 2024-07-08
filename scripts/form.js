@@ -50,11 +50,3 @@ products.forEach((product) => {
     option.textContent = product.id;
     selectElement.appendChild(option);
 });
-
-//LocalStorage
-
-let numSubmissions = Number(window.localStorage.getItem("numSubmissions")) || 0;
-
-numSubmissions++;
-
-localStorage.setItem("numSubmissions", numSubmissions);
