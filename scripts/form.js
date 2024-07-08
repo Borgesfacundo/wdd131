@@ -41,3 +41,12 @@ const products = [
         avg: 5.0
     }
 ];
+
+const selectElement = document.querySelector("#product");
+
+products.forEach((product) => {
+    let option = document.createElement("option");
+    option.setAttribute("value", product.value)
+    option.textContent = product.id;
+    selectElement.appendChild(option);
+});
