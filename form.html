@@ -16,37 +16,39 @@
 
     <h1>Product Review</h1>
 
-    <form method="get" action="review.html">
-        <label>Product Name*
-            <select name="productName" id="product" required>
-                <option value="" disabled selected>Select a Product ...</option>
-            </select>
-        </label>
+    <form class="pr1" method="get" action="review.html">
+        <fieldset>
+            <label>Product Name
+                <select name="productName" id="product" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </label>
+
+            <div>Overall Rating</div>
+            <label class="radio">&star;<input type="radio" name="rating" id="star1" required></label>
+            <label class="radio">&star;&star;<input type="radio" name="rating" id="star2" required></label>
+            <label class="radio">&star;&star;&star;<input type="radio" name="rating" id="star3" required></label>
+            <label class="radio">&star;&star;&star;&star;<input type="radio" name="rating" id="star4" required></label>
+            <label class="radio">&star;&star;&star;&star;&star;<input type="radio" name="rating" id="star5"
+                    required></label>
+            <label>Date of Installation <input type="date" id="installation-date" name="installation" required></label>
+
+            <div>Which features did you find useful in the product? <br>
+                (Check all that apply)</div>
+            <label><input type="checkbox" name="durability" id="durability" value="yes">durability</label>
+            <label><input type="checkbox" name="easy" id="easy" value="yes">Ease of use</label>
+            <label><input type="checkbox" name="performance" id="performance" value="yes">Performance</label>
+            <label><input type="checkbox" name="design" id="design" value="yes">Design</label>
+
+            <label>Written Review (Optional)
+                <textarea name="review" id="review"></textarea>
+            </label>
+
+            <label>Your Name (Optional) <input type="text" name="username" id="username"></label>
+        </fieldset>
+        <input type="submit" value="Post Review">
     </form>
 
-    <div>Overall Rating*</div>
-    <label>&star;<input type="radio" name="rating" id="star1" required></label>
-    <label>&star;&star;<input type="radio" name="rating" id="star2" required></label>
-    <label>&star;&star;&star;<input type="radio" name="rating" id="star3" required></label>
-    <label>&star;&star;&star;&star;<input type="radio" name="rating" id="star4" required></label>
-    <label>&star;&star;&star;&star;&star;<input type="radio" name="rating" id="star5" required></label>
-
-    <label>Date of Installation* <input type="date" id="installation-date" name="installation" required></label>
-
-    <div>Which features did you find useful in the product? <br>
-    (Check all that apply)</div>
-    <label><input type="checkbox" name="durability" id="durability" value="yes">durability</label>
-    <label><input type="checkbox" name="easy" id="easy" value="yes">Ease of use</label>
-    <label><input type="checkbox" name="performance" id="performance" value="yes">Performance</label>
-    <label><input type="checkbox" name="design" id="design" value="yes">Design</label>
-
-    <label>Written Review (Optional)
-        <textarea name="review" id="review"></textarea>
-    </label>
-
-    <label>Your Name (Optional) <input type="text" name="username" id="username"></label>
-
-    <input type="submit" value="Post Review">
     <footer>
         <p>&copy; <span id="currentyear"></span> - Facundo Borges - Argentina</p>
         <p id="lastmodified"></p>
