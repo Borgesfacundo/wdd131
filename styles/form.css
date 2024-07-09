@@ -58,7 +58,7 @@ textarea {
 
 .pr1 .radio {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 .pr1 input[type="radio"] {
