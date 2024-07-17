@@ -6,6 +6,10 @@ body,
 }
 
 header {
+    background-color: #16b077;
+}
+
+nav {
     background-color: #84a8c2;
 }
 
@@ -15,7 +19,7 @@ h3 {
 }
 
 h1 {
-    padding-top: 2rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -24,9 +28,6 @@ ul {
     list-style-type: none;
 }
 
-nav {
-    padding-top: 2rem;
-}
 
 nav a {
     display: block;
