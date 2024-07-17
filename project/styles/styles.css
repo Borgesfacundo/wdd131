@@ -5,25 +5,37 @@ body,
     padding: 0;
 }
 
+header {
+    background-color: #57CC99;
+}
+
+h2, h3 {
+    color: #4A7B9D;
+}
+
 h1 {
     text-align: center;
 }
 
 ul {
     display: block;
-    text-align: center;
-}
-
-li {
-    list-style: none;
+    list-style-type: none;
 }
 
 nav a {
+    display: block;
     text-decoration: none;
+    text-align: center;
+    padding: .5rem;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+}
 
 .hero {
+    grid-column: 1/5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -31,6 +43,7 @@ nav a {
 .hero h2 {
     text-align: center;
     grid-column: 2/3;
+    padding: 2rem;
 }
 
 .hero div {
