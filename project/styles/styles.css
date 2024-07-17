@@ -126,6 +126,10 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+input:required:valid {
+    border-right: 6px solid green;
+}
+
 button:hover {
     cursor: pointer;
     background-color: #000;

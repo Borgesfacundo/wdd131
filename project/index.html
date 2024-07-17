@@ -44,8 +44,8 @@
             <div class="calculator">
                 <form>
                     <fieldset>
-                        <label>Your weight* <input type="text" name="weight" id="weight" required></label>
-                        <label>Your height* <input type="text" name="height" id="height" required></label>
+                        <label>Your weight* <input type="text" name="weight" id="weight" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
+                        <label>Your height* <input type="text" name="height" id="height" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
                     </fieldset>
                     <div class="btn-container">
                         <span class="bmi-result"></span>
