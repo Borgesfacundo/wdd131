@@ -6,12 +6,12 @@ body,
 }
 
 header {
-    background-color: #16b077;
+    background-color: #84a8c2;
 }
 
 h2,
 h3 {
-    color: #5d95bd;
+    color: #84a8c2;
 }
 
 h1 {
@@ -44,7 +44,7 @@ nav a:hover {
 
 .active {
     color: #fff;
-    background-color: #0000003f;
+    background-color: #000000a8;
 }
 
 main {
@@ -84,11 +84,11 @@ section h2 {
 .calculator {
     display: flex;
     justify-content: center;
-    border: 2px solid #5d95bd;
+    border: 2px solid #16b077;
     border-radius: 6px;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 600px;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 
@@ -120,19 +120,20 @@ input[type="text"] {
 .bmi-button {
     padding: 1rem 2rem;
     border: none;
-    color: #fff;
-    background-color: #5d95bd;
+    color: #000;
+    background-color: #16b077;
     border-radius: 4px;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #000;
+    color: #fff;
 }
 
 section h3 {
     text-align: center;
-    color: #fff;
+    color: #000;
     padding: 0  2rem 1rem 2rem;
 }
 
@@ -140,12 +141,12 @@ section h3 {
 .info2 {
     text-align: center;
     padding: 2rem;
-    background-color: #5d95bd;
+    background-color: #16b077;
     margin: 2rem;
 }
 
 footer {
-    background-color: #16b077;
+    background-color: #84a8c2;
     padding: 2rem;
     text-align: center;
     margin-top: 2rem;
