@@ -11,7 +11,7 @@ header {
 
 h2,
 h3 {
-    color: #4A7B9D;
+    color: #5d95bd;
 }
 
 h1 {
@@ -23,11 +23,25 @@ ul {
     list-style-type: none;
 }
 
+nav {
+    padding: 1rem;
+}
+
 nav a {
     display: block;
     text-decoration: none;
     text-align: center;
     padding: .5rem;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.active {
+    color: #fff;
+    background-color: #0000003f;
 }
 
 main {
@@ -60,6 +74,8 @@ main {
 section h2 {
     text-align: center;
     padding-top: 2rem;
+    color: #000;
+    font-size: 2rem;
 }
 
 .calculator {
@@ -97,19 +113,21 @@ input[type="text"] {
     padding: 1rem 2rem;
     border: none;
     color: #fff;
-    background-color: #4A7B9D;
+    background-color: #5d95bd;
     border-radius: 4px;
 }
 
 section h3 {
     text-align: center;
+    color: #fff;
+    padding: 0  2rem 1rem 2rem;
 }
 
 .info,
 .info2 {
     text-align: center;
     padding: 2rem;
-    background-color: #4A7B9D;
+    background-color: #5d95bd;
     margin: 2rem;
 }
 
