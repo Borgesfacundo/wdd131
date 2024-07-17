@@ -6,7 +6,7 @@ body,
 }
 
 header {
-    background-color: #57CC99;
+    background-color: #16b077;
 }
 
 h2,
@@ -15,6 +15,7 @@ h3 {
 }
 
 h1 {
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -24,7 +25,7 @@ ul {
 }
 
 nav {
-    padding: 1rem;
+    padding-top: 2rem;
 }
 
 nav a {
@@ -32,6 +33,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: .5rem;
+    color: #000;
 }
 
 nav a:hover {
@@ -81,6 +83,11 @@ section h2 {
 .calculator {
     display: flex;
     justify-content: center;
+    border: 2px solid #5d95bd;
+    border-radius: 6px;
+    min-width: 400px;
+    max-width: 600px;
+    margin:  0 auto;
 }
 
 
@@ -117,6 +124,11 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+}
+
 section h3 {
     text-align: center;
     color: #fff;
@@ -132,7 +144,7 @@ section h3 {
 }
 
 footer {
-    background-color: #57CC99;
+    background-color: #16b077;
     padding: 2rem;
     text-align: center;
     margin-top: 2rem;
