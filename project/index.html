@@ -14,6 +14,7 @@
     <title>BHC - Body Health Care</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/styles-larger.css">
+    <script src="scripts/project.js" defer></script>
 </head>
 
 <body>
@@ -42,10 +43,10 @@
         <section class="bmi">
             <h2>BMI CALCULATOR</h2>
             <div class="calculator">
-                <form>
+                <form id="bmi-form">
                     <fieldset>
-                        <label>Your weight* <input type="text" name="weight" id="weight" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
-                        <label>Your height* <input type="text" name="height" id="height" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
+                        <label>Your weight* <input type="number" name="weight" id="weight" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
+                        <label>Your height* <input type="number" name="height" id="height" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
                     </fieldset>
                     <div class="btn-container">
                         <span class="bmi-result"></span>
