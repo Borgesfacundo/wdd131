@@ -9,7 +9,8 @@ header {
     background-color: #57CC99;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #4A7B9D;
 }
 
@@ -31,22 +32,95 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: repeat(4 1fr);
+    grid-template-columns: 1fr
 }
 
 .hero {
-    grid-column: 1/5;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .hero h2 {
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 1/2;
     padding: 2rem;
 }
 
-.hero div {
-    grid-column: 1/4;
+.hero img {
+    width: 100%;
+    height: 100%;
 }
 
+.hero div {
+    grid-column: 1/2;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+
+section h2 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+}
+
+
+fieldset {
+    padding: 2rem;
+    border: none;
+}
+
+label {
+    display: block;
+    text-align: left;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+input[type="text"] {
+    padding: .7rem;
+    border-right: 6px solid red;
+    display: block;
+}
+
+.btn-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-button {
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    background-color: #4A7B9D;
+    border-radius: 4px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.info,
+.info2 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #4A7B9D;
+    margin: 2rem;
+}
+
+footer {
+    background-color: #57CC99;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
