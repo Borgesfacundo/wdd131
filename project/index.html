@@ -45,12 +45,17 @@
             <div class="calculator">
                 <form id="bmi-form">
                     <fieldset>
-                        <label>Your weight* <input type="number" name="weight" id="weight" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
-                        <label>Your height* <input type="number" name="height" id="height" pattern="^\d*\.?\d+$" title="Number must be at least 0" required></label>
+                        <label>Your weight (Kg)* <input type="number" name="weight" id="weight" pattern="^\d*\.?\d+$"
+                                title="Number must be at least 0" required></label>
+                        <label>Your height (Cm)* <input type="number" name="height" id="height" pattern="^\d*\.?\d+$"
+                                title="Number must be at least 0" required></label>
                     </fieldset>
+                    <div class="bmi-result-container">
+                        <p class="bmi-result"></p>
+                    </div>
+
                     <div class="btn-container">
-                        <span class="bmi-result"></span>
-                    <button class="bmi-button">Get my BMI</button>
+                        <button class="bmi-button">Get my BMI</button>
                     </div>
                 </form>
             </div>

@@ -136,6 +136,10 @@ button:hover {
     color: #fff;
 }
 
+.bmi-result {
+    text-align: center;
+}
+
 section h3 {
     text-align: center;
     color: #000;

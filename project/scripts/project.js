@@ -12,8 +12,9 @@ document.getElementById('bmi-form').addEventListener('submit', function (event) 
 });
 
 function bmiCalculator(weight, height) {
-    let bmiResult = weight / (Math.sqrt(height))
-    bmiElement.innerHTML = `Your BMI is ${bmiResult.toFixed(2)}`;
+    height = height / 100
+    let bmiResult = weight / (height* height)
+    bmiElement.innerHTML = `<b>Your BMI is ${bmiResult.toFixed(2)}</b>`;
 }
 
 
