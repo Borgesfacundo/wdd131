@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Facundo Emanuel Borges">
+    <meta name="description" content="BHC is a webpage that helps users to calculate BMI (Body Mass Index). Also you will find information about the different results that you can get.
+    Also here you will find another health care information like good habits for the body and a form to
+    send us your comments about the site or your questions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>BHC - Body Health Care</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-larger.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>BHC - Body Health Care</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Information</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form method="get" action="thanks.html" class="wf1">
+            <fieldset>
+                <legend>User Review</legend>
+                <label>First Name <input type="text" name="fname"></label>
+                <label>Phone (Optional) <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label>Comments here<textarea name="Comments" id="comments"></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Page Content Review</legend>
+                <label><input type="radio" name="useful" value="Not Good">Not Good</label>
+                <label><input type="radio" name="useful" value="Normal">Normal</label>
+                <label><input type="radio" name="useful" value="Good">Good</label>
+            </fieldset>
+
+            <input type="submit" value="Send My Reviw">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Facundo Borges - Argentina</p>
+        <a href="">Contact us</a>
+    </footer>
+</body>
+
+</html>
