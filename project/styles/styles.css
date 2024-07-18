@@ -148,10 +148,17 @@ section h3 {
 
 .info,
 .info2 {
+    min-width: 350px;
+    width: 350px;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 4rem;
     background-color: #16b077;
     margin: 2rem;
+}
+
+.bmi-ranges {
+    list-style:disc;
+    text-align: center;
 }
 
 footer {
