@@ -14,13 +14,17 @@ document.getElementById('bmi-form').addEventListener('submit', function (event) 
 
 function bmiCalculator(weight, height) {
     height = height / 100
-    let bmiResult = weight / (height* height)
+    let bmiResult = weight / (height * height)
     bmiElement.innerHTML = `<b>Your BMI is ${bmiResult.toFixed(2)}</b>`;
 }
 
-const date = new Date();
 
-currentYear.innerHTML = date.getFullYear();
+const dateFunction = () => {
+    const date = new Date();
+    currentYear.innerHTML = date.getFullYear();
+}
+
+window.onload = dateFunction;
 
 
 

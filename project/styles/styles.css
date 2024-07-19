@@ -173,3 +173,9 @@ footer a {
     color: #000;
     text-decoration: none;
 }
+
+/*page 2 */
+
+.info h2, .info2 h2 {
+    padding: 1rem;
+}
