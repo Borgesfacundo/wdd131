@@ -1,6 +1,6 @@
 const bmiElement = document.querySelector(".bmi-result");
 const button = document.querySelector(".bmi-button");
-const currentYear = document.getElementById("currentyear");
+const currentYear = document.querySelector(".currentyear");
 
 
 document.getElementById('bmi-form').addEventListener('submit', function (event) {
