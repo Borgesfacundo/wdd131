@@ -123,7 +123,7 @@ input[type="number"] {
     padding: 1rem 2rem;
     border: none;
     color: #000;
-    background-color: #16b077;
+    background-image: linear-gradient(#16b077, #333835);
     border-radius: 4px;
 }
 
@@ -214,6 +214,7 @@ footer a {
     border: 3px solid #16b077;
     border-radius: 8px;
     padding: 2rem;
+    padding-right: 4rem;
 }
 
 .ur1 input[type="radio"] {
@@ -222,7 +223,7 @@ footer a {
 
 .ur1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(red, #7b6058);
+    background-image: linear-gradient(#16b077, #333835);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
@@ -239,4 +240,10 @@ footer a {
 
 .ur1 input:required:valid {
     border-right: solid 6px green;
+}
+
+.thanks {
+grid-column: 1/5;
+color: red;
+justify-self: center;
 }
