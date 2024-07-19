@@ -164,14 +164,17 @@ section h3 {
 
 footer {
     background-color: #84a8c2;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     margin-top: 2rem;
 }
 
+footer p {
+    padding: 1rem;
+}
+
 footer a {
     color: #000;
-    text-decoration: none;
 }
 
 /*page 2 */
