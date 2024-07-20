@@ -35,4 +35,10 @@
     .info2 {
         grid-column: 3/5;
     }
+
+    .ur1 {
+        grid-column: 1/5;
+        justify-self: left;
+        margin: 2rem;
+    }
 }

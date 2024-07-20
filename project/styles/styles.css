@@ -6,7 +6,8 @@ body,
 }
 
 header {
-    background-color: #16b077;
+    background-image: linear-gradient(#16b077, #333835);
+
 }
 
 nav {
@@ -153,8 +154,9 @@ section h3 {
     width: 350px;
     text-align: center;
     padding: 2rem 4rem;
-    background-color: #16b077;
+    background-color: #84a8c2;
     margin: 2rem;
+    border-radius: 6px;
 }
 
 .bmi-ranges {
@@ -202,6 +204,7 @@ footer a {
     max-width: 500px;
     border-radius: 6px;
 }
+
 
 .ur1 legend {
     font-size: 1.3rem;
