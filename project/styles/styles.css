@@ -66,6 +66,7 @@ main {
 }
 
 .hero img {
+    min-width: 350px;
     width: 100%;
     height: 100%;
 }
@@ -73,8 +74,6 @@ main {
 .hero div {
     grid-column: 1/2;
     margin: 0 auto;
-    min-width: 100%;
-    height: 100%;
 }
 
 section h2 {
@@ -150,12 +149,12 @@ section h3 {
 
 .info,
 .info2 {
-    min-width: 350px;
+    min-width: 200px;
     width: 350px;
     text-align: center;
-    padding: 2rem 4rem;
+    padding: 2rem;
     background-color: #84a8c2;
-    margin: 2rem;
+    margin: 2rem 0;
     border-radius: 6px;
 }
 
